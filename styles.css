@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+table {
+	width: 400px;
+	border: 2px solid black;
+	text-align:left;
+	font-family: "Calibri", "Arial", "Sans Sheriff";
+	border-collapse: collapse;
+}
+
+th, tr, td {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+tr:nth-child(1){
+	background: #FAD5D5;
+	color: white;
+}
+tr:nth-child(2){
+	background: #FFF5F5;
+	color: black;
+}
+tr:nth-child(3){
+	background: #B5B2B2;
+	color: black;
+}
+th{
+	background: #AF1717;
+	color: white;
+}
